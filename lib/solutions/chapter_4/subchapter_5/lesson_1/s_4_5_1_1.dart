@@ -4,15 +4,15 @@ class S4511 extends StatelessWidget {
   const S4511({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return const Helloworld();
+    return const Helloworld2();
   }
 }
 
-class Helloworld extends StatelessWidget {
-  const Helloworld({super.key});
+class Helloworld2 extends StatelessWidget {
+  const Helloworld2({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Hello World');
+    return const Center(child: Text('Hello World'));
   }
 }
